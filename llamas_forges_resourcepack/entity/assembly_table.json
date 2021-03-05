@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "llamas_forges:assembly_table",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"pickaxe": "textures/entity/tooltables/pickaxe",
+				"axe": "textures/entity/tooltables/axe",
+				"sword": "textures/entity/tooltables/sword",
+				"shovel": "textures/entity/tooltables/shovel",
+				"hoe": "textures/entity/tooltables/hoe",
+				"helmet": "textures/entity/tooltables/helmet",
+				"chestplate": "textures/entity/tooltables/chestplate",
+				"legging": "textures/entity/tooltables/legging",
+				"boot": "textures/entity/tooltables/boot"
+			},
+			"geometry": {
+				"default": "geometry.tooltable"
+			},
+			"render_controllers": [
+				"controller.render.tooltables"
+			]
+		}
+	}
+}

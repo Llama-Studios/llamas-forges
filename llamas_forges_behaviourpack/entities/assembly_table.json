@@ -1,0 +1,831 @@
+{
+  "format_version":"1.16.0",
+  "minecraft:entity":{
+    "description":{
+      "identifier":"llamas_forges:assembly_table",
+      "is_spawnable":false,
+      "is_summonable":true,
+      "is_experimental":false,
+      "runtime_identifier":"minecraft:shulker"
+    },
+    "component_groups":{
+      "pickaxe":{
+        "minecraft:variant":{
+          "value":0
+        },
+        "minecraft:economy_trade_table": {
+          "display_name": "Assembly Table - Pickaxes",
+          "new_screen": true,
+          "show_trade_screen": true,
+          "table": "trading/economy_trades/assembly_table/pickaxe.json"
+        },
+        "minecraft:interact":{
+          "interactions":[
+            {
+              "interact_text":"Remove",
+              "spawn_items": {
+                "table": "loot_tables/assembly_table/assembly_table.json"
+              },
+              "on_interact":{
+                "event":"remove",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    },
+                    {
+                      "test":"has_equipment",
+                      "subject":"other",
+                      "domain":"hand",
+                      "value":"llamas_forges:wrench"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "interact_text":"Change Mode",
+              "on_interact":{
+                "event":"axe",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "axe":{
+        "minecraft:variant":{
+          "value":1
+        },
+        "minecraft:economy_trade_table": {
+          "display_name": "Assembly Table - Axes",
+          "new_screen": true,
+          "show_trade_screen": true,
+          "table": "trading/economy_trades/assembly_table/axe.json"
+        },
+        "minecraft:interact":{
+          "interactions":[
+            {
+              "interact_text":"Remove",
+              "spawn_items": {
+                "table": "loot_tables/assembly_table/assembly_table.json"
+              },
+              "on_interact":{
+                "event":"remove",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    },
+                    {
+                      "test":"has_equipment",
+                      "subject":"other",
+                      "domain":"hand",
+                      "value":"llamas_forges:wrench"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "interact_text":"Change Mode",
+              "on_interact":{
+                "event":"sword",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "sword":{
+        "minecraft:variant":{
+          "value":2
+        },
+        "minecraft:economy_trade_table": {
+          "display_name": "Assembly Table - Swords",
+          "new_screen": true,
+          "show_trade_screen": true,
+          "table": "trading/economy_trades/assembly_table/sword.json"
+        },
+        "minecraft:interact":{
+          "interactions":[
+            {
+              "interact_text":"Remove",
+              "spawn_items": {
+                "table": "loot_tables/assembly_table/assembly_table.json"
+              },
+              "on_interact":{
+                "event":"remove",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    },
+                    {
+                      "test":"has_equipment",
+                      "subject":"other",
+                      "domain":"hand",
+                      "value":"llamas_forges:wrench"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "interact_text":"Change Mode",
+              "on_interact":{
+                "event":"shovel",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "shovel":{
+        "minecraft:variant":{
+          "value":3
+        },
+        "minecraft:economy_trade_table": {
+          "display_name": "Assembly Table - Shovels",
+          "new_screen": true,
+          "show_trade_screen": true,
+          "table": "trading/economy_trades/assembly_table/shovel.json"
+        },
+        "minecraft:interact":{
+          "interactions":[
+            {
+              "interact_text":"Remove",
+              "spawn_items": {
+                "table": "loot_tables/assembly_table/assembly_table.json"
+              },
+              "on_interact":{
+                "event":"remove",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    },
+                    {
+                      "test":"has_equipment",
+                      "subject":"other",
+                      "domain":"hand",
+                      "value":"llamas_forges:wrench"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "interact_text":"Change Mode",
+              "on_interact":{
+                "event":"hoe",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "hoe":{
+        "minecraft:variant":{
+          "value":4
+        },
+        "minecraft:economy_trade_table": {
+          "display_name": "Assembly Table - Hoes",
+          "new_screen": true,
+          "show_trade_screen": true,
+          "table": "trading/economy_trades/assembly_table/hoe.json"
+        },
+        "minecraft:interact":{
+          "interactions":[
+            {
+              "interact_text":"Remove",
+              "spawn_items": {
+                "table": "loot_tables/assembly_table/assembly_table.json"
+              },
+              "on_interact":{
+                "event":"remove",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    },
+                    {
+                      "test":"has_equipment",
+                      "subject":"other",
+                      "domain":"hand",
+                      "value":"llamas_forges:wrench"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "interact_text":"Change Mode",
+              "on_interact":{
+                "event":"helmet",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "helmet":{
+        "minecraft:variant":{
+          "value":5
+        },
+        "minecraft:economy_trade_table": {
+          "display_name": "Assembly Table - Helmets",
+          "new_screen": true,
+          "show_trade_screen": true,
+          "table": "trading/economy_trades/assembly_table/helmet.json"
+        },
+        "minecraft:interact":{
+          "interactions":[
+            {
+              "interact_text":"Remove",
+              "spawn_items": {
+                "table": "loot_tables/assembly_table/assembly_table.json"
+              },
+              "on_interact":{
+                "event":"remove",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    },
+                    {
+                      "test":"has_equipment",
+                      "subject":"other",
+                      "domain":"hand",
+                      "value":"llamas_forges:wrench"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "interact_text":"Change Mode",
+              "on_interact":{
+                "event":"chestplate",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "chestplate":{
+        "minecraft:variant":{
+          "value":6
+        },
+        "minecraft:economy_trade_table": {
+          "display_name": "Assembly Table - Chestplates",
+          "new_screen": true,
+          "show_trade_screen": true,
+          "table": "trading/economy_trades/assembly_table/chestplate.json"
+        },
+        "minecraft:interact":{
+          "interactions":[
+            {
+              "interact_text":"Remove",
+              "spawn_items": {
+                "table": "loot_tables/assembly_table/assembly_table.json"
+              },
+              "on_interact":{
+                "event":"remove",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    },
+                    {
+                      "test":"has_equipment",
+                      "subject":"other",
+                      "domain":"hand",
+                      "value":"llamas_forges:wrench"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "interact_text":"Change Mode",
+              "on_interact":{
+                "event":"legging",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "legging":{
+        "minecraft:variant":{
+          "value":7
+        },
+        "minecraft:economy_trade_table": {
+          "display_name": "Assembly Table - Leggings",
+          "new_screen": true,
+          "show_trade_screen": true,
+          "table": "trading/economy_trades/assembly_table/legging.json"
+        },
+        "minecraft:interact":{
+          "interactions":[
+            {
+              "interact_text":"Remove",
+              "spawn_items": {
+                "table": "loot_tables/assembly_table/assembly_table.json"
+              },
+              "on_interact":{
+                "event":"remove",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    },
+                    {
+                      "test":"has_equipment",
+                      "subject":"other",
+                      "domain":"hand",
+                      "value":"llamas_forges:wrench"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "interact_text":"Change Mode",
+              "on_interact":{
+                "event":"boot",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "boot":{
+        "minecraft:variant":{
+          "value":8
+        },
+        "minecraft:economy_trade_table": {
+          "display_name": "Assembly Table - Boots",
+          "new_screen": true,
+          "show_trade_screen": true,
+          "table": "trading/economy_trades/assembly_table/boot.json"
+        },
+        "minecraft:interact":{
+          "interactions":[
+            {
+              "interact_text":"Remove",
+              "spawn_items": {
+                "table": "loot_tables/assembly_table/assembly_table.json"
+              },
+              "on_interact":{
+                "event":"remove",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    },
+                    {
+                      "test":"has_equipment",
+                      "subject":"other",
+                      "domain":"hand",
+                      "value":"llamas_forges:wrench"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "interact_text":"Change Mode",
+              "on_interact":{
+                "event":"pickaxe",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_sneaking",
+                      "subject":"other"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "remove": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": 0.1,
+          "time_down_event": {
+            "event": "removenow",
+            "target": "self"
+          }
+        },
+        "minecraft:variant": {
+          "value": 0
+        }
+      },
+      "removenow": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components":{
+      "minecraft:spawn_entity": {
+        "entities": {
+          "min_wait_time": 1,
+          "max_wait_time": 2,
+          "single_use": true,
+          "spawn_entity": "llamas_forges:assembly_table_guide"
+        }
+      },
+      "minecraft:type_family":{
+        "family":[
+          "inanimate"
+        ]
+      },
+      "minecraft:breathable":{
+        "total_supply":15,
+        "suffocate_time":0
+      },
+      "minecraft:health":{
+        "value":100,
+        "max":100
+      },
+      "minecraft:collision_box":{
+        "width":1,
+        "height":1
+      }
+    },
+    "events":{
+      "minecraft:entity_spawned":{
+        "add":{
+          "component_groups":[
+            "pickaxe"
+          ]
+        }
+      },
+      "pickaxe":{
+        "remove":{
+          "component_groups":[
+            "pickaxe",
+            "axe",
+            "sword",
+            "shovel",
+            "hoe",
+            "helmet",
+            "chestplate",
+            "legging",
+            "boot"
+          ]
+        },
+        "add":{
+          "component_groups":[
+            "pickaxe"
+          ]
+        }
+      },
+      "axe":{
+        "remove":{
+          "component_groups":[
+            "pickaxe",
+            "axe",
+            "sword",
+            "shovel",
+            "hoe",
+            "helmet",
+            "chestplate",
+            "legging",
+            "boot"
+          ]
+        },
+        "add":{
+          "component_groups":[
+            "axe"
+          ]
+        }
+      },
+      "sword":{
+        "remove":{
+          "component_groups":[
+            "pickaxe",
+            "axe",
+            "sword",
+            "shovel",
+            "hoe",
+            "helmet",
+            "chestplate",
+            "legging",
+            "boot"
+          ]
+        },
+        "add":{
+          "component_groups":[
+            "sword"
+          ]
+        }
+      },
+      "shovel":{
+        "remove":{
+          "component_groups":[
+            "pickaxe",
+            "axe",
+            "sword",
+            "shovel",
+            "hoe",
+            "helmet",
+            "chestplate",
+            "legging",
+            "boot"
+          ]
+        },
+        "add":{
+          "component_groups":[
+            "shovel"
+          ]
+        }
+      },
+      "hoe":{
+        "remove":{
+          "component_groups":[
+            "pickaxe",
+            "axe",
+            "sword",
+            "shovel",
+            "hoe",
+            "helmet",
+            "chestplate",
+            "legging",
+            "boot"
+          ]
+        },
+        "add":{
+          "component_groups":[
+            "hoe"
+          ]
+        }
+      },
+      "helmet":{
+        "remove":{
+          "component_groups":[
+            "pickaxe",
+            "axe",
+            "sword",
+            "shovel",
+            "hoe",
+            "helmet",
+            "chestplate",
+            "legging",
+            "boot"
+          ]
+        },
+        "add":{
+          "component_groups":[
+            "helmet"
+          ]
+        }
+      },
+      "chestplate":{
+        "remove":{
+          "component_groups":[
+            "pickaxe",
+            "axe",
+            "sword",
+            "shovel",
+            "hoe",
+            "helmet",
+            "chestplate",
+            "legging",
+            "boot"
+          ]
+        },
+        "add":{
+          "component_groups":[
+            "chestplate"
+          ]
+        }
+      },
+      "legging":{
+        "remove":{
+          "component_groups":[
+            "pickaxe",
+            "axe",
+            "sword",
+            "shovel",
+            "hoe",
+            "helmet",
+            "chestplate",
+            "legging",
+            "boot"
+          ]
+        },
+        "add":{
+          "component_groups":[
+            "legging"
+          ]
+        }
+      },
+      "boot":{
+        "remove":{
+          "component_groups":[
+            "pickaxe",
+            "axe",
+            "sword",
+            "shovel",
+            "hoe",
+            "helmet",
+            "chestplate",
+            "legging",
+            "boot"
+          ]
+        },
+        "add":{
+          "component_groups":[
+            "boot"
+          ]
+        }
+      },
+      "remove":{
+        "remove":{
+          "component_groups":[
+            "pickaxe",
+            "axe",
+            "sword",
+            "shovel",
+            "hoe",
+            "helmet",
+            "chestplate",
+            "legging",
+            "boot"
+          ]
+        },
+        "add":{
+          "component_groups": [
+            "remove"
+          ]
+        }
+      },
+      "removenow":{
+        "add":{
+          "component_groups": [
+            "removenow"
+          ]
+        }
+      }
+    }
+  }
+}

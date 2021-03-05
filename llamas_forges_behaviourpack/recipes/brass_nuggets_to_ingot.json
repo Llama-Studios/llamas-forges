@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "llamas_forges:brass_nuggets_to_ingot"
+    },
+    "groups": [
+      "llamas_forges"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "llamas_forges:brass_nugget"
+      },
+      "1": {
+        "item": "llamas_forges:brass_nugget"
+      },
+      "2": {
+        "item": "llamas_forges:brass_nugget"
+      },
+      "3": {
+        "item": "llamas_forges:brass_nugget"
+      },
+      "4": {
+        "item": "llamas_forges:brass_nugget"
+      },
+      "5": {
+        "item": "llamas_forges:brass_nugget"
+      },
+      "6": {
+        "item": "llamas_forges:brass_nugget"
+      },
+      "7": {
+        "item": "llamas_forges:brass_nugget"
+      },
+      "8": {
+        "item": "llamas_forges:brass_nugget"
+      }
+    },
+    "result": {
+      "item": "llamas_forges:brass_ingot",
+      "count": 1
+    }
+  }
+}

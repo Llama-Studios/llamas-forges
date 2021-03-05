@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "llamas_forges:melting_basin",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"off": "textures/entity/meltingbasin/off",
+				"empty": "textures/entity/meltingbasin/empty",
+				"water": "textures/entity/meltingbasin/water",
+				"lava": "textures/entity/meltingbasin/lava",
+				"obsidian": "textures/entity/meltingbasin/obsidian",
+				"iron": "textures/entity/meltingbasin/iron",
+				"gold": "textures/entity/meltingbasin/gold",
+				"zinc": "textures/entity/meltingbasin/zinc",
+				"brass": "textures/entity/meltingbasin/brass",
+				"diamond": "textures/entity/meltingbasin/diamond",
+				"debris": "textures/entity/meltingbasin/debris",
+				"netherite": "textures/entity/meltingbasin/netherite"
+			},
+			"geometry": {
+				"default": "geometry.meltingbasin"
+			},
+			"render_controllers": [
+				"controller.render.meltingbasin"
+			]
+		}
+	}
+}

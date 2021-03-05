@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "llamas_forges:smelt_zinc_ore"
+    },
+    "groups": [
+      "llamas_forges"
+    ],
+    "tags": [
+      "furnace", "blast_furnace"
+    ],
+    "input": {
+      "item": "llamas_forges:zinc_ore"
+    },
+    "output": {
+      "item": "llamas_forges:zinc_ingot"
+    }
+  }
+}

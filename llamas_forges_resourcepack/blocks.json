@@ -1,0 +1,51 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "llamas_forges:zinc_ore": {
+    "textures": {
+      "up": "llamas_forges_zinc_ore_up",
+      "down": "llamas_forges_zinc_ore_down",
+      "south": "llamas_forges_zinc_ore_south",
+      "north": "llamas_forges_zinc_ore_north",
+      "west": "llamas_forges_zinc_ore_west",
+      "east": "llamas_forges_zinc_ore_east"
+    },
+    "sound": "stone"
+  },
+  "llamas_forges:zinc_block": {
+    "textures": {
+      "up": "llamas_forges_zinc_block_up",
+      "down": "llamas_forges_zinc_block_down",
+      "south": "llamas_forges_zinc_block_south",
+      "north": "llamas_forges_zinc_block_north",
+      "west": "llamas_forges_zinc_block_west",
+      "east": "llamas_forges_zinc_block_east"
+    },
+    "sound": "metal"
+  },
+  "llamas_forges:brass_block": {
+    "textures": {
+      "up": "llamas_forges_brass_block_up",
+      "down": "llamas_forges_brass_block_down",
+      "south": "llamas_forges_brass_block_south",
+      "north": "llamas_forges_brass_block_north",
+      "west": "llamas_forges_brass_block_west",
+      "east": "llamas_forges_brass_block_east"
+    },
+    "sound": "metal"
+  },
+  "llamas_forges:template_table": {
+    "textures": {
+      "up": "llamas_forges_template_table_up",
+      "down": "llamas_forges_template_table_down",
+      "south": "llamas_forges_template_table_south",
+      "north": "llamas_forges_template_table_north",
+      "west": "llamas_forges_template_table_west",
+      "east": "llamas_forges_template_table_east"
+    },
+    "sound": "wood"
+  }
+}

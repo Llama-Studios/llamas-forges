@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "By Llama Studios",
+    "name": "Llama's Forges RP",
+    "uuid": "9a6365d0-5ff3-3c2d-953a-2719f1ec4a48",
+    "version": [
+      1,
+      2,
+      5
+    ],
+    "min_engine_version": [1, 13, 0]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "154e69fc-e05e-3c38-8723-5416370a8224",
+      "version": [
+        1,
+        2,
+        5
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "81c31b3b-5fbe-35ef-bbfa-67b51d1172c5",
+      "version": [
+        1,
+        2,
+        5
+      ]
+    }
+  ]
+}

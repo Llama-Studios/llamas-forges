@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.tooltables": {
+			"arrays": {
+				"textures": {
+					"Array.variants": [
+						"Texture.pickaxe",
+						"Texture.axe",
+						"Texture.sword",
+						"Texture.shovel",
+						"Texture.hoe",
+						"Texture.helmet",
+						"Texture.chestplate",
+						"Texture.legging",
+						"Texture.boot"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.variants[query.variant]"
+			]
+		}
+	}
+}

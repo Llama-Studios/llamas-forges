@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "llamas_forges:assembly_table",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:entity_placer": {
+        "entity": "llamas_forges:assembly_table"
+      },
+      "minecraft:foil": false,
+      "minecraft:stacked_by_data": false,
+      "minecraft:display_name":{
+         "value":"Assembly Table"
+      },
+      "minecraft:icon": {
+         "texture": "tool_table"
+      }
+    }
+  }
+}

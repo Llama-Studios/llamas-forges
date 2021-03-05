@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "llamas_forges:llamas_forges_zinc_ore_ore_feature"
+    },
+    "count": 6,
+    "places_block": "llamas_forges:zinc_ore",
+    "may_replace": [
+      "minecraft:stone"
+    ]
+  }
+}

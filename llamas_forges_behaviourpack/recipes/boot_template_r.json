@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "llamas_forges:boot_template_r"
+    },
+    "groups": [
+      "llamas_forges"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 2",
+      "345"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:planks"
+      },
+      "2": {
+        "item": "minecraft:planks"
+      },
+      "3": {
+        "item": "minecraft:planks"
+      },
+      "4": {
+        "item": "llamas_forges:info_template_table"
+      },
+      "5": {
+        "item": "minecraft:planks"
+      }
+    },
+    "result": {
+      "item": "llamas_forges:boot_template",
+      "count": 1
+    }
+  }
+}

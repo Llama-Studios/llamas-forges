@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "llamas_forges:melting_basin",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:entity_placer": {
+        "entity": "llamas_forges:melting_basin"
+      },
+      "minecraft:foil": false,
+      "minecraft:stacked_by_data": false,
+      "minecraft:display_name":{
+         "value":"Melting Basin"
+      },
+      "minecraft:icon": {
+         "texture": "melting_basin"
+      }
+    }
+  }
+}

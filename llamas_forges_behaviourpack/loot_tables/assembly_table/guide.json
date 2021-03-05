@@ -1,0 +1,10 @@
+{ "pools": [{"rolls": 1,"entries": [{"type": "item","name": "minecraft:written_book","weight": 1,"functions": [{"function": "set_book_contents","title": "Assembly Table", "author": "Llama Studios","pages": [
+    "Assembly Table Guide\nLlamas Forges\nBy Llama Studios",
+    "If you're reading this, you've made an assembly table. This book will make a lot more sense if you've already made a melting basin and casting basin, so if you don't have one, go make one and learn how to use it, then come back to this.",
+    "The assembly table is used to combine the parts you made in the casting basin to make great tool and armor. This book also explains which tool and armor materials do what.",
+    "§lAssembling Gear§r\n1. Sneak-interact (shift-right click) on the assembly table until the type of gear you want to make is displayed on top.\n2. Interact (right click) on the assembly table to open it.\n3. Select what you want and take it.",
+    "§lTool Traits§r\nIron - Unbreaking 2\nGold - Efficiency 4\nDiamond - Fortune 3\nNetherite - Unbreaking 3",
+    "§lWeapon Traits§r\nIron - Sharpness 3\nGold - Fire Aspect 2\nDiamond - Looting 3\nNetherite - Unbreaking 3",
+    "§lArmor Traits§r\nIron - Thorns 2\nGold - Protection 2\nDiamond - Protection 4\nNetherite - Unbreaking 3",
+    "§lSynergy§r\nAny gear that uses two pieces of the same material will gain the ability to mend itself with experience points. This also applies to netherite-gold gear, as netherite is an alloy containing gold."
+]}]}]}]}

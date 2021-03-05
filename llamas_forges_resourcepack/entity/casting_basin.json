@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "llamas_forges:casting_basin",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"empty": "textures/entity/castingbasin/empty",
+				"pickaxet": "textures/entity/castingbasin/pickaxetemplate",
+				"axet": "textures/entity/castingbasin/axetemplate",
+				"swordt": "textures/entity/castingbasin/swordtemplate",
+				"shovelt": "textures/entity/castingbasin/shoveltemplate",
+				"hoet": "textures/entity/castingbasin/hoetemplate",
+				"helmett": "textures/entity/castingbasin/helmettemplate",
+				"chestplatet": "textures/entity/castingbasin/chestplatetemplate",
+				"leggingt": "textures/entity/castingbasin/leggingtemplate",
+				"boott": "textures/entity/castingbasin/boottemplate",
+				"ingott": "textures/entity/castingbasin/ingottemplate",
+				"rodt": "textures/entity/castingbasin/rodtemplate",
+				"cufft": "textures/entity/castingbasin/cufftemplate",
+				"pickaxec": "textures/entity/castingbasin/pickaxeclay",
+				"axec": "textures/entity/castingbasin/axeclay",
+				"swordc": "textures/entity/castingbasin/swordclay",
+				"shovelc": "textures/entity/castingbasin/shovelclay",
+				"hoec": "textures/entity/castingbasin/hoeclay",
+				"helmetc": "textures/entity/castingbasin/helmetclay",
+				"chestplatec": "textures/entity/castingbasin/chestplateclay",
+				"leggingc": "textures/entity/castingbasin/leggingclay",
+				"bootc": "textures/entity/castingbasin/bootclay",
+				"ingotc": "textures/entity/castingbasin/ingotclay",
+				"rodc": "textures/entity/castingbasin/rodclay",
+				"cuffc": "textures/entity/castingbasin/cuffclay",
+				"pickaxeb": "textures/entity/castingbasin/pickaxebrass",
+				"axeb": "textures/entity/castingbasin/axebrass",
+				"swordb": "textures/entity/castingbasin/swordbrass",
+				"shovelb": "textures/entity/castingbasin/shovelbrass",
+				"hoeb": "textures/entity/castingbasin/hoebrass",
+				"helmetb": "textures/entity/castingbasin/helmetbrass",
+				"chestplateb": "textures/entity/castingbasin/chestplatebrass",
+				"leggingb": "textures/entity/castingbasin/leggingbrass",
+				"bootb": "textures/entity/castingbasin/bootbrass",
+				"ingotb": "textures/entity/castingbasin/ingotbrass",
+				"rodb": "textures/entity/castingbasin/rodbrass",
+				"cuffb": "textures/entity/castingbasin/cuffbrass"
+			},
+			"geometry": {
+				"default": "geometry.castingbasin"
+			},
+			"render_controllers": [
+				"controller.render.castingbasin"
+			]
+		}
+	}
+}

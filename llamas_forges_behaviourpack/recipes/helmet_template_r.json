@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "llamas_forges:helmet_template_r"
+    },
+    "groups": [
+      "llamas_forges"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "3 5",
+      "  8"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:planks"
+      },
+      "1": {
+        "item": "minecraft:planks"
+      },
+      "2": {
+        "item": "minecraft:planks"
+      },
+      "3": {
+        "item": "minecraft:planks"
+      },
+      "5": {
+        "item": "minecraft:planks"
+      },
+      "8": {
+        "item": "llamas_forges:info_template_table"
+      }
+    },
+    "result": {
+      "item": "llamas_forges:helmet_template",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:item": {
+    "description": {
+      "identifier": "llamas_forges:ingot_mold",
+      "category": "Items",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:icon": "ingot_mold",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

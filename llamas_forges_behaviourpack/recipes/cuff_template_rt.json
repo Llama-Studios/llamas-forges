@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "llamas_forges:cuff_template_rt"
+    },
+    "groups": [
+      "llamas_forges"
+    ],
+    "tags": [
+      "template_table"
+    ],
+    "pattern": [
+      "0 2",
+      "   ",
+      "   "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:planks"
+      },
+      "2": {
+        "item": "minecraft:planks"
+      }
+    },
+    "result": {
+      "item": "llamas_forges:cuff_template",
+      "count": 1
+    }
+  }
+}

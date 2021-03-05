@@ -1,0 +1,294 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "wrench": {
+      "textures": "textures/items/wrench"
+    },
+    "diamond_legging_base": {
+      "textures": "textures/items/diamondleggingbase"
+    },
+    "brass_boot_mold": {
+      "textures": "textures/items/brassbootsmold"
+    },
+    "tool_table": {
+      "textures": "textures/items/tooltable"
+    },
+    "molten_zinc": {
+      "textures": "textures/items/moltenzinc"
+    },
+    "gold_rod": {
+      "textures": "textures/items/goldrod"
+    },
+    "zinc_nugget": {
+      "textures": "textures/items/zincnugget"
+    },
+    "brass_ingot_mold": {
+      "textures": "textures/items/brassingotmold"
+    },
+    "netherite_pickaxe_head": {
+      "textures": "textures/items/netheritepickaxebase"
+    },
+    "netherite_helmet_base": {
+      "textures": "textures/items/netheritehelmetbase"
+    },
+    "boot_template": {
+      "textures": "textures/items/bootstemplate"
+    },
+    "casting_basin": {
+      "textures": "textures/items/castingbasin"
+    },
+    "shovel_mold": {
+      "textures": "textures/items/shovelmold"
+    },
+    "gold_axe_head": {
+      "textures": "textures/items/goldaxebase"
+    },
+    "gold_hoe_head": {
+      "textures": "textures/items/goldhoebase"
+    },
+    "gold_sword_head": {
+      "textures": "textures/items/goldswordbase"
+    },
+    "diamond_rod": {
+      "textures": "textures/items/diamondrod"
+    },
+    "netherite_hoe_head": {
+      "textures": "textures/items/netheritehoebase"
+    },
+    "netherite_chestplate_base": {
+      "textures": "textures/items/netheritechestplatebase"
+    },
+    "axe_mold": {
+      "textures": "textures/items/axemold"
+    },
+    "info_template_table": {
+      "textures": "textures/items/info"
+    },
+    "chestplate_template": {
+      "textures": "textures/items/chestplatetemplate"
+    },
+    "rod_mold": {
+      "textures": "textures/items/rodmold"
+    },
+    "molten_debris": {
+      "textures": "textures/items/moltendebris"
+    },
+    "brass_helmet_mold": {
+      "textures": "textures/items/brasshelmetmold"
+    },
+    "gold_boot_base": {
+      "textures": "textures/items/goldbootbase"
+    },
+    "legging_mold": {
+      "textures": "textures/items/leggingmold"
+    },
+    "brass_sword_mold": {
+      "textures": "textures/items/brassswordmold"
+    },
+    "molten_netherite": {
+      "textures": "textures/items/moltennetherite"
+    },
+    "netherite_boot_base": {
+      "textures": "textures/items/netheritebootbase"
+    },
+    "diamond_boot_base": {
+      "textures": "textures/items/diamondbootbase"
+    },
+    "gold_helmet_base": {
+      "textures": "textures/items/goldhelmetbase"
+    },
+    "iron_rod": {
+      "textures": "textures/items/ironrod"
+    },
+    "iron_legging_base": {
+      "textures": "textures/items/ironleggingbase"
+    },
+    "molten_gold": {
+      "textures": "textures/items/moltengold"
+    },
+    "pickaxe_template": {
+      "textures": "textures/items/pickaxetemplate"
+    },
+    "brass_ingot": {
+      "textures": "textures/items/brassingot"
+    },
+    "chestplate_mold": {
+      "textures": "textures/items/chestplatemold"
+    },
+    "netherite_axe_head": {
+      "textures": "textures/items/netheriteaxebase"
+    },
+    "gold_cuff": {
+      "textures": "textures/items/goldcuff"
+    },
+    "diamond_shovel_head": {
+      "textures": "textures/items/diamondshovelbase"
+    },
+    "brass_chestplate_mold": {
+      "textures": "textures/items/brasschestplatemold"
+    },
+    "brass_legging_mold": {
+      "textures": "textures/items/brassleggingmold"
+    },
+    "iron_sword_head": {
+      "textures": "textures/items/ironswordbase"
+    },
+    "diamond_cuff": {
+      "textures": "textures/items/diamondcuff"
+    },
+    "molten_diamond": {
+      "textures": "textures/items/moltendiamond"
+    },
+    "molten_brass": {
+      "textures": "textures/items/moltenbrass"
+    },
+    "iron_cuff": {
+      "textures": "textures/items/ironcuff"
+    },
+    "info_melting_basin": {
+      "textures": "textures/items/info"
+    },
+    "gold_legging_base": {
+      "textures": "textures/items/goldleggingbase"
+    },
+    "iron_shovel_head": {
+      "textures": "textures/items/ironshovelbase"
+    },
+    "brass_shovel_mold": {
+      "textures": "textures/items/brassshovelmold"
+    },
+    "gold_shovel_head": {
+      "textures": "textures/items/goldshovelbase"
+    },
+    "legging_template": {
+      "textures": "textures/items/leggingtemplate"
+    },
+    "diamond_hoe_head": {
+      "textures": "textures/items/diamondhoebase"
+    },
+    "brass_hoe_mold": {
+      "textures": "textures/items/brasshoemold"
+    },
+    "netherite_sword_head": {
+      "textures": "textures/items/netheriteswordbase"
+    },
+    "iron_pickaxe_head": {
+      "textures": "textures/items/ironpickaxebase"
+    },
+    "sword_mold": {
+      "textures": "textures/items/swordmold"
+    },
+    "axe_template": {
+      "textures": "textures/items/axetemplate"
+    },
+    "diamond_pickaxe_head": {
+      "textures": "textures/items/diamondpickaxebase"
+    },
+    "zinc_ingot": {
+      "textures": "textures/items/zincingot"
+    },
+    "cuff_mold": {
+      "textures": "textures/items/cuffmold"
+    },
+    "molten_iron": {
+      "textures": "textures/items/molteniron"
+    },
+    "netherite_legging_base": {
+      "textures": "textures/items/netheriteleggingsbase"
+    },
+    "helmet_template": {
+      "textures": "textures/items/helmettemplate"
+    },
+    "shovel_template": {
+      "textures": "textures/items/shoveltemplate"
+    },
+    "iron_boot_base": {
+      "textures": "textures/items/ironbootbase"
+    },
+    "diamond_chestplate_base": {
+      "textures": "textures/items/diamondchestplatebase"
+    },
+    "brass_cuff_mold": {
+      "textures": "textures/items/brasscuffmold"
+    },
+    "hoe_template": {
+      "textures": "textures/items/hoetemplate"
+    },
+    "diamond_sword_head": {
+      "textures": "textures/items/diamondswordbase"
+    },
+    "cuff_template": {
+      "textures": "textures/items/cufftemplate"
+    },
+    "brass_pickaxe_mold": {
+      "textures": "textures/items/brasspickaxemold"
+    },
+    "melting_basin": {
+      "textures": "textures/items/meltingbasin"
+    },
+    "brass_rod_mold": {
+      "textures": "textures/items/brassrodmold"
+    },
+    "ingot_template": {
+      "textures": "textures/items/ingottemplate"
+    },
+    "gold_chestplate_base": {
+      "textures": "textures/items/goldchestplatebase"
+    },
+    "iron_chestplate_base": {
+      "textures": "textures/items/ironchestplatebase"
+    },
+    "pickaxe_mold": {
+      "textures": "textures/items/pickaxemold"
+    },
+    "diamond_helmet_base": {
+      "textures": "textures/items/diamondhelmetbase"
+    },
+    "ingot_mold": {
+      "textures": "textures/items/ingotmold"
+    },
+    "sword_template": {
+      "textures": "textures/items/swordtemplate"
+    },
+    "netherite_shovel_head": {
+      "textures": "textures/items/netheriteshovelbase"
+    },
+    "diamond_axe_head": {
+      "textures": "textures/items/diamondaxebase"
+    },
+    "brass_axe_mold": {
+      "textures": "textures/items/brassaxemold"
+    },
+    "boot_mold": {
+      "textures": "textures/items/bootsmold"
+    },
+    "iron_hoe_head": {
+      "textures": "textures/items/ironhoebase"
+    },
+    "iron_helmet_base": {
+      "textures": "textures/items/ironhelmetbase"
+    },
+    "gold_pickaxe_head": {
+      "textures": "textures/items/goldpickaxebase"
+    },
+    "info_casting_basin": {
+      "textures": "textures/items/info"
+    },
+    "template_table_item": {
+      "textures": "textures/items/templatetableitem"
+    },
+    "hoe_mold": {
+      "textures": "textures/items/hoemold"
+    },
+    "iron_axe_head": {
+      "textures": "textures/items/ironaxebase"
+    },
+    "brass_nugget": {
+      "textures": "textures/items/brassnugget"
+    },
+    "helmet_mold": {
+      "textures": "textures/items/helmetmold"
+    }
+  }
+}

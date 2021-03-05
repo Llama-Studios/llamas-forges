@@ -1,0 +1,10 @@
+{ "pools": [{"rolls": 1,"entries": [{"type": "item","name": "minecraft:written_book","weight": 1,"functions": [{"function": "set_book_contents","title": "Casting Basin","author": "Llama Studios","pages": [
+    "Casting Basin Guide\nLlamas Forges\nBy Llama Studios",
+    "If you're reading this, you've made a casting basin. This book will make a lot more sense if you've already made a melting basin, so if you don't have one, go make one and learn how to use it, then come back to this.",
+    "The casting basin serves 2 purposes: making molds and using molds. You'll learn how to do both in this book.",
+    "§lMaking Molds§r\n1. Make a template table, and use it to make the template for the type of mold you would like, or for a rod mold, use a stick.\n2. Interact (right click) on the casting basin with the template to place it.",
+    "3. Interact (right click) on the casting basin with the material you would like the mold to be made out of, which can be either a clay block, or a bucket of molten brass.\n4. Sneak-interact (shift-right click) on the casting basin to remove the mold.",
+    "§lBrass§r\nBrass is an alloy used for making better molds. Unlike clay molds, brass molds can be used more than once. To make brass, simply combine zinc and gold in the melting basin.",
+    "§lUsing Molds§r\n1. Interact (right click) on the casting basin with the mold to place it inside. It should appear inside the basin.\n2. Interact (right click) on the casting basin with a bucket of molten material.",
+    "3. If you used a brass mold, the mold will remain in the casting basin. Sneak-interact (shift-right click) to remove it.\n\nNext, you will need an assembly table to combine your tool parts."
+]}]}]}]}

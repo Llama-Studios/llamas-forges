@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "llamas_forges:zinc_ingot_to_nuggets"
+    },
+    "groups": [
+      "llamas_forges"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "llamas_forges:zinc_ingot"
+      }
+    ],
+    "result": {
+      "item": "llamas_forges:zinc_nugget",
+      "count": 9
+    }
+  }
+}

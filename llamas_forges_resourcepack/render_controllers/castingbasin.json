@@ -1,0 +1,59 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.castingbasin": {
+			"arrays": {
+				"textures": {
+					"Array.variants": [
+						"Texture.empty",
+						"Texture.pickaxet",
+						"Texture.pickaxec",
+						"Texture.pickaxeb",
+						"Texture.axet",
+						"Texture.axec",
+						"Texture.axeb",
+						"Texture.swordt",
+						"Texture.swordc",
+						"Texture.swordb",
+						"Texture.shovelt",
+						"Texture.shovelc",
+						"Texture.shovelb",
+						"Texture.hoet",
+						"Texture.hoec",
+						"Texture.hoeb",
+						"Texture.helmett",
+						"Texture.helmetc",
+						"Texture.helmetb",
+						"Texture.chestplatet",
+						"Texture.chestplatec",
+						"Texture.chestplateb",
+						"Texture.leggingt",
+						"Texture.leggingc",
+						"Texture.leggingb",
+						"Texture.boott",
+						"Texture.bootc",
+						"Texture.bootb",
+						"Texture.ingott",
+						"Texture.ingotc",
+						"Texture.ingotb",
+						"Texture.rodt",
+						"Texture.rodc",
+						"Texture.rodb",
+						"Texture.cufft",
+						"Texture.cuffc",
+						"Texture.cuffb"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.variants[query.variant]"
+			]
+		}
+	}
+}

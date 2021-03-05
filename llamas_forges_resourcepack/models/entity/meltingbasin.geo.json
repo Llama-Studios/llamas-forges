@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.meltingbasin",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "unknown_bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -8], "size": [16, 2, 16], "uv": [0, 0]},
+						{"origin": [-6, 11, -6], "size": [12, 2, 12], "uv": [20, 18]},
+						{"origin": [6, 2, -8], "size": [2, 14, 16], "uv": [20, 32]},
+						{"origin": [-8, 2, -8], "size": [2, 14, 16], "uv": [0, 18]},
+						{"origin": [-6, 2, -8], "size": [12, 14, 2], "uv": [48, 0]},
+						{"origin": [-6, 2, 6], "size": [12, 14, 2], "uv": [40, 32]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "llamas_forges:hoe_template_rt"
+    },
+    "groups": [
+      "llamas_forges"
+    ],
+    "tags": [
+      "template_table"
+    ],
+    "pattern": [
+      "01 ",
+      "   ",
+      "   "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:planks"
+      },
+      "1": {
+        "item": "minecraft:planks"
+      }
+    },
+    "result": {
+      "item": "llamas_forges:hoe_template",
+      "count": 1
+    }
+  }
+}

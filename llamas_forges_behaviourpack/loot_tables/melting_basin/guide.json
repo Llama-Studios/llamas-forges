@@ -1,0 +1,10 @@
+{ "pools": [{"rolls": 1,"entries": [{"type": "item","name": "minecraft:written_book","weight": 1,"functions": [{"function": "set_book_contents","title": "Melting Basin", "author": "Llama Studios","pages": [
+    "Melting Basin Guide\nLlamas Forges\nBy Llama Studios",
+    "If you're reading this, you've made a melting basin. The melting basin is the first of several machines in the Llamas Forges mod, which will help you create awesome tools and armor.",
+    "The melting basin is used to melt ores and to create alloys. You will learn to do both in this book.",
+    "§lMelting Ore§r\n1. Interact (right click) on the melting basin with lava to fuel it. You will need to do this whenever it runs out of lava, indicated by the bar on the side of the melting basin.",
+    "2. Interact (right click) on the melting basin with an ore to melt it.\n3. Interact (right click) on the melting basin using a bucket to get a bucket of molten ore. Molten ore is used in the casting basin, the next machine you should make.",
+    "§lAlloying§r\n1. Interact (right click) on the melting basin with the first ore to melt it.\n2. Interact (right click) on the melting basin with the other ore to mix them.\n3. Interact (right click) using a bucket to take the alloy.",
+    "§lZinc§r\nZinc is a greenish ore found in the overworld, and used in the Llamas Forges mod. It can be alloyed with gold to create brass, an alloy you will use in the casting basin.",
+    "§lThe Wrench§r\nIf you find that you put a machine in the wrong place, you will need a wrench. Sneak-interact (shift-right click) on any machine from this mod while holding the wrench to remove it."
+]}]}]}]}

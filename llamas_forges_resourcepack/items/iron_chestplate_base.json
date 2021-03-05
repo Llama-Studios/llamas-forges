@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:item": {
+    "description": {
+      "identifier": "llamas_forges:iron_chestplate_base",
+      "category": "Items",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:icon": "iron_chestplate_base",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

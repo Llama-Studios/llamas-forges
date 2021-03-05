@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "llamas_forges:casting_basin_r"
+    },
+    "groups": [
+      "llamas_forges"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 2",
+      "3 5",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:hardened_clay"
+      },
+      "2": {
+        "item": "minecraft:hardened_clay"
+      },
+      "3": {
+        "item": "minecraft:hardened_clay"
+      },
+      "5": {
+        "item": "minecraft:hardened_clay"
+      },
+      "6": {
+        "item": "minecraft:hardened_clay"
+      },
+      "7": {
+        "item": "minecraft:hardened_clay"
+      },
+      "8": {
+        "item": "minecraft:hardened_clay"
+      }
+    },
+    "result": {
+      "item": "llamas_forges:casting_basin",
+      "count": 1
+    }
+  }
+}
