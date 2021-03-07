@@ -499,6 +499,33 @@
               "interact_text":"Melt",
               "use_item":true,
               "on_interact":{
+                "event":"diamond",
+                "filters":{
+                  "all_of":[
+                    {
+                      "test":"is_variant",
+                      "subject":"self",
+                      "value":1
+                    },
+                    {
+                      "test":"has_equipment",
+                      "subject":"other",
+                      "domain":"hand",
+                      "value":"minecraft:diamond"
+                    },
+                    {
+                      "test":"is_family",
+                      "subject":"other",
+                      "value":"player"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "interact_text":"Melt",
+              "use_item":true,
+              "on_interact":{
                 "event":"debris",
                 "filters":{
                   "all_of":[
@@ -690,7 +717,6 @@
           "interactions":[
             {
               "interact_text":"Take",
-              "use_item":true,
               "spawn_items": {
                 "table": "loot_tables/melting_basin/obsidian.json"
               },
